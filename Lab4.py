@@ -9,12 +9,6 @@ def fibonacci(n):
         a, b = b, a+b
     return b
 
-print(fibonacci(1))
-print(fibonacci(2))
-print(fibonacci(3))
-print(fibonacci(6))
-print(fibonacci(25))
-
 #prime numbers
 
 def is_prime(n):
@@ -25,12 +19,6 @@ def is_prime(n):
             return False
     return True
 
-print(is_prime(2))
-print(is_prime(11))
-print(is_prime(1741))
-print(is_prime(1))
-print(is_prime(9))
-print(is_prime(-2))
 
 #Prime Factorization
 def print_prime_factors(n):
@@ -46,8 +34,3 @@ def print_prime_factors(n):
 
     print(original_n, "=", " * ".join(factors))
 
-print_prime_factors(10)
-print_prime_factors(2)
-print_prime_factors(24)
-print_prime_factors(2475)
-print_prime_factors(23)
